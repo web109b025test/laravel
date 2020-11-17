@@ -32,3 +32,4 @@ Route::group(['prefix' => 'admin', 'namespace' => '\App\Http\Controllers', 'midd
 });
 
 Route::get('gamer2', '\App\Http\Controllers\SiteController@renderGamePage');
+Route::get('gamer', '\App\Http\Controllers\SiteController@renderGamePage');
